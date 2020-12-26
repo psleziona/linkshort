@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+<p>Admin page </p>
+<button id="btn_users">Users</button>
+<button id="btn_links">Linki</button>
+<div class="users">
+    {% for user in data.users %}
+        <p>Username: {{ user.username }}</p>
+    {% endfor %}
+</div>
+<div class="links">
+    {% for link in data.links %}
+        <p>Linki {{ link.target }} : {{ link.short }}</p>
+    {% endfor %}
+</div>
+{% endblock %}

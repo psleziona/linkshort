@@ -1,0 +1,31 @@
+body {
+    background-color: #1060ba;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.menu {
+    display: block;
+    width: 100%
+
+}
+
+.menu__sub {
+    display: inline;
+    width: 100%;
+}
+
+.menu__sub a {
+    width: 100%;
+    }
+
+.users {
+    display: none;
+}
+
+.links {
+    display: none;
+}
